@@ -42,7 +42,8 @@ def hbnb_filters(the_id=None):
                            users=users,
                            cache_id=uuid.uuid4())
 
+
 if __name__ == "__main__":
     """
     MAIN Flask App"""
-    app.run(host=host, port=port, debug=true)
+    app.run(host=host, port=port, debug=True)
